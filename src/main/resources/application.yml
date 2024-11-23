@@ -20,8 +20,8 @@ spring:
         uri: lb://RATING-SERVICE
         predicates:
         - Path=/ratingservice/**
-  config:
-    import: configserver:http://localhost:8085
+#  config:
+#    import: configserver:http://localhost:8085
 
 #okta security for spring boot app
 okta:
